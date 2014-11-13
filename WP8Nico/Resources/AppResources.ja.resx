@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>このアプリについて</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="AddTargetMylist" xml:space="preserve">
+    <value>追加先マイリスト</value>
+  </data>
+  <data name="AddToMylist" xml:space="preserve">
+    <value>マイリストに追加</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>メニュー項目</value>
+  </data>
+  <data name="AskLogin" xml:space="preserve">
+    <value>アカウントを設定していません。設定ページを開きますか?</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>作者：Daisuke Nomura</value>
+  </data>
+  <data name="AutoPlay" xml:space="preserve">
+    <value>動画を自動再生</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="CannotAddMylist" xml:space="preserve">
+    <value>{0}に追加できませんでした</value>
+  </data>
+  <data name="CannotPlay" xml:space="preserve">
+    <value>再生不可</value>
+  </data>
+  <data name="CannotPlayFLV" xml:space="preserve">
+    <value>FLV未対応</value>
+  </data>
+  <data name="CannotPlayFLVDesc" xml:space="preserve">
+    <value>FLV動画は再生できません</value>
+  </data>
+  <data name="CannotPlaySWF" xml:space="preserve">
+    <value>SWF未対応</value>
+  </data>
+  <data name="CannotPlaySWFDesc" xml:space="preserve">
+    <value>SWF動画はこのバージョンでは再生できません</value>
+  </data>
+  <data name="CannotPlayThisApp" xml:space="preserve">
+    <value>この動画はアプリで再生できません</value>
+  </data>
+  <data name="CannotPlayUnknown" xml:space="preserve">
+    <value>動画形式不明</value>
+  </data>
+  <data name="CannotPlayUnknownDesc" xml:space="preserve">
+    <value>動画形式が判別できません</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>カテゴリ</value>
+  </data>
+  <data name="CategoryTypeDailyAll" xml:space="preserve">
+    <value>24時間: 総合</value>
+  </data>
+  <data name="CategoryTypeDailyMylist" xml:space="preserve">
+    <value>24時間: マイリスト</value>
+  </data>
+  <data name="CategoryTypeDailyRes" xml:space="preserve">
+    <value>24時間: コメント</value>
+  </data>
+  <data name="CategoryTypeDailyView" xml:space="preserve">
+    <value>24時間: 再生</value>
+  </data>
+  <data name="CategoryTypeHourlyAll" xml:space="preserve">
+    <value>毎時: 総合</value>
+  </data>
+  <data name="CategoryTypeHourlyMylist" xml:space="preserve">
+    <value>毎時: マイリスト</value>
+  </data>
+  <data name="CategoryTypeHourlyRes" xml:space="preserve">
+    <value>毎時: コメント</value>
+  </data>
+  <data name="CategoryTypeHourlyView" xml:space="preserve">
+    <value>毎時: 再生</value>
+  </data>
+  <data name="CategoryTypeMonthlyAll" xml:space="preserve">
+    <value>月間: 総合</value>
+  </data>
+  <data name="CategoryTypeMonthlyMylist" xml:space="preserve">
+    <value>月間: マイリスト</value>
+  </data>
+  <data name="CategoryTypeMonthlyRes" xml:space="preserve">
+    <value>月間: コメント</value>
+  </data>
+  <data name="CategoryTypeMonthlyView" xml:space="preserve">
+    <value>月間: 再生</value>
+  </data>
+  <data name="CategoryTypeTotalAll" xml:space="preserve">
+    <value>合計: 総合</value>
+  </data>
+  <data name="CategoryTypeTotalMylist" xml:space="preserve">
+    <value>合計: マイリスト</value>
+  </data>
+  <data name="CategoryTypeTotalRes" xml:space="preserve">
+    <value>合計: コメント</value>
+  </data>
+  <data name="CategoryTypeTotalView" xml:space="preserve">
+    <value>合計: 再生</value>
+  </data>
+  <data name="CategoryTypeWeeklyAll" xml:space="preserve">
+    <value>週間: 総合</value>
+  </data>
+  <data name="CategoryTypeWeeklyMylist" xml:space="preserve">
+    <value>週間: マイリスト</value>
+  </data>
+  <data name="CategoryTypeWeeklyRes" xml:space="preserve">
+    <value>週間: コメント</value>
+  </data>
+  <data name="CategoryTypeWeeklyView" xml:space="preserve">
+    <value>週間: 再生</value>
+  </data>
+  <data name="Caution" xml:space="preserve">
+    <value>注意：このアプリはニコニコ動画の運営会社とは一切関係ありません。運営会社には問い合わせないでください。また、利用者はこのアプリを使用したことによる如何なる損害についても全責任を負うものとし、作者は何ら責任を負わないものとします。nicosearchのサジェスト機能を有効にした場合、入力された単語がnicosearchのサーバに送信されます。</value>
+  </data>
+  <data name="CautionAccount" xml:space="preserve">
+    <value>niconicoで取得したアカウントを設定</value>
+  </data>
+  <data name="CommentCount" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="DeleteSearchHistory" xml:space="preserve">
+    <value>検索履歴の削除</value>
+  </data>
+  <data name="DeleteWatchedHistory" xml:space="preserve">
+    <value>視聴履歴(アプリ内)の削除</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>概要</value>
+  </data>
+  <data name="DetailDescription" xml:space="preserve">
+    <value>概要：このアプリはニコニコ動画をWindows Phoneで閲覧するためのアプリです。</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>お気に入り</value>
+  </data>
+  <data name="GoHome" xml:space="preserve">
+    <value>ホームへ</value>
+  </data>
+  <data name="H264LowQuality" xml:space="preserve">
+    <value>H.264低画質モード</value>
+  </data>
+  <data name="H264SingleStreaming" xml:space="preserve">
+    <value>H.264ストリーミング再生</value>
+  </data>
+  <data name="HubHistorySave" xml:space="preserve">
+    <value>視聴履歴をmusic+videosハブに保存</value>
+  </data>
+  <data name="info" xml:space="preserve">
+    <value>概要</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>リンク</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="LoginFalse" xml:space="preserve">
+    <value>ログインできません</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>ログアウト</value>
+  </data>
+  <data name="MailAddress" xml:space="preserve">
+    <value>メールアドレス</value>
+  </data>
+  <data name="Mylist" xml:space="preserve">
+    <value>マイリスト</value>
+  </data>
+  <data name="Mylist2" xml:space="preserve">
+    <value>マイリスト</value>
+  </data>
+  <data name="MylistCount" xml:space="preserve">
+    <value>マイリスト</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名称：ニコアプリ(仮)</value>
+  </data>
+  <data name="NicoDougaMobile" xml:space="preserve">
+    <value>FLV形式の再生時に</value>
+  </data>
+  <data name="NicosearchSuggest" xml:space="preserve">
+    <value>nicosearchによるサジェスト</value>
+  </data>
+  <data name="NotSetAccount" xml:space="preserve">
+    <value>アカウントを設定していないため、再生できません</value>
+  </data>
+  <data name="OnlyforPremiumMember" xml:space="preserve">
+    <value>以下はプレミアム会員のみ有効</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="Post" xml:space="preserve">
+    <value>メッセージ</value>
+  </data>
+  <data name="PostedTime" xml:space="preserve">
+    <value>投稿</value>
+  </data>
+  <data name="PostedVideo" xml:space="preserve">
+    <value>投稿動画</value>
+  </data>
+  <data name="PostMessage" xml:space="preserve">
+    <value>メッセージ投稿</value>
+  </data>
+  <data name="PublicMylist" xml:space="preserve">
+    <value>公開マイリスト</value>
+  </data>
+  <data name="Ranking" xml:space="preserve">
+    <value>ランキング</value>
+  </data>
+  <data name="related" xml:space="preserve">
+    <value>オススメ</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>再読み込み</value>
+  </data>
+  <data name="RepeatVideo" xml:space="preserve">
+    <value>リピート再生を使用</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ja</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="Search2" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="SearchKeywordCommentLittle" xml:space="preserve">
+    <value>キーワード: コメント数が少ない順</value>
+  </data>
+  <data name="SearchKeywordCommentMany" xml:space="preserve">
+    <value>キーワード: コメント数が多い順</value>
+  </data>
+  <data name="SearchKeywordCommentNew" xml:space="preserve">
+    <value>キーワード: コメントが新しい順</value>
+  </data>
+  <data name="SearchKeywordCommentOld" xml:space="preserve">
+    <value>キーワード: コメントが古い順</value>
+  </data>
+  <data name="SearchKeywordLengthLong" xml:space="preserve">
+    <value>キーワード: 再生時間が長い順</value>
+  </data>
+  <data name="SearchKeywordLengthShort" xml:space="preserve">
+    <value>キーワード: 再生時間が短い順</value>
+  </data>
+  <data name="SearchKeywordMylistLittle" xml:space="preserve">
+    <value>キーワード: マイリスト数が少ない順</value>
+  </data>
+  <data name="SearchKeywordMylistMany" xml:space="preserve">
+    <value>キーワード: マイリスト数が多い順</value>
+  </data>
+  <data name="SearchKeywordNewAsc" xml:space="preserve">
+    <value>キーワード: 投稿日時が新しい順</value>
+  </data>
+  <data name="SearchKeywordNewDesc" xml:space="preserve">
+    <value>キーワード: 投稿日時が古い順</value>
+  </data>
+  <data name="SearchKeywordViewLittle" xml:space="preserve">
+    <value>キーワード: 再生数が少ない順</value>
+  </data>
+  <data name="SearchKeywordViewMany" xml:space="preserve">
+    <value>キーワード: 再生数が多い順</value>
+  </data>
+  <data name="SearchTagCommentLittle" xml:space="preserve">
+    <value>タグ: コメント数が少ない順</value>
+  </data>
+  <data name="SearchTagCommentMany" xml:space="preserve">
+    <value>タグ: コメント数が多い順</value>
+  </data>
+  <data name="SearchTagCommentNew" xml:space="preserve">
+    <value>タグ: コメントが新しい順</value>
+  </data>
+  <data name="SearchTagCommentOld" xml:space="preserve">
+    <value>タグ: コメントが古い順</value>
+  </data>
+  <data name="SearchTagLengthLong" xml:space="preserve">
+    <value>タグ: 再生時間が長い順</value>
+  </data>
+  <data name="SearchTagLengthShort" xml:space="preserve">
+    <value>タグ: 再生時間が短い順</value>
+  </data>
+  <data name="SearchTagMylistLittle" xml:space="preserve">
+    <value>タグ: マイリスト数が少ない順</value>
+  </data>
+  <data name="SearchTagMylistMany" xml:space="preserve">
+    <value>タグ: マイリスト数が多い順</value>
+  </data>
+  <data name="SearchTagNewAsc" xml:space="preserve">
+    <value>タグ: 投稿日時が新しい順</value>
+  </data>
+  <data name="SearchTagNewDesc" xml:space="preserve">
+    <value>タグ: 投稿日時が古い順</value>
+  </data>
+  <data name="SearchTagViewLittle" xml:space="preserve">
+    <value>タグ: 再生数が少ない順</value>
+  </data>
+  <data name="SearchTagViewMany" xml:space="preserve">
+    <value>タグ: 再生数が多い順</value>
+  </data>
+  <data name="SelectMylist" xml:space="preserve">
+    <value>追加先のマイリストを選んでください</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>共有</value>
+  </data>
+  <data name="ShareWatched" xml:space="preserve">
+    <value>視聴履歴(ネットワーク)</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>並び替え</value>
+  </data>
+  <data name="SoundOnly" xml:space="preserve">
+    <value>FLV形式のため再生できません</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>タグ</value>
+  </data>
+  <data name="UndefinedMovie" xml:space="preserve">
+    <value>再生する動画が指定されていません</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>バージョン：0.25</value>
+  </data>
+  <data name="VideoLength" xml:space="preserve">
+    <value>再生時間</value>
+  </data>
+  <data name="ViewCount" xml:space="preserve">
+    <value>再生</value>
+  </data>
+  <data name="Watched" xml:space="preserve">
+    <value>視聴履歴(アプリ内)</value>
+  </data>
+  <data name="IYAYO" xml:space="preserve">
+    <value>匿名(184)コメントを表示</value>
+  </data>
+  <data name="MyUploads" xml:space="preserve">
+    <value>投稿動画</value>
+  </data>
+  <data name="ShareWatched2" xml:space="preserve">
+    <value>視聴履歴(ネットワーク)</value>
+  </data>
+  <data name="ToriaezuMylist" xml:space="preserve">
+    <value>とりあえずマイリスト</value>
+  </data>
+  <data name="Watched2" xml:space="preserve">
+    <value>視聴履歴(アプリ内)</value>
+  </data>
+  <data name="UnavailableForNotPremium" xml:space="preserve">
+    <value>この動画はプレミアム会員のみ視聴出来ます</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Japanese" xml:space="preserve">
+    <value>日本語</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+</root>
